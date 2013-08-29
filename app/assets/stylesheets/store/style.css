@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header_panel {
-  background: url("/assets/store/header_panel.png") no-repeat;
+  /* background: url("/assets/store/header_panel.png") no-repeat; remove background */
   width: 1058px;
   height: 102px;
   display: table;
@@ -266,13 +266,13 @@ ul.sidebar_menu li a:hover {
 }
 
 .footer {
-  margin-top: -124px;
-  height: 124px;
+  margin-top: -80px; /* Height footer */
+  height: 80px; /* --- */
   clear: both;
   width: 1048px;
   margin-left: auto;
   margin-right: auto;
-  background: url("/assets/store/footer_panel.png") center top no-repeat;
+  /* background: url("/assets/store/footer_panel.png") center top no-repeat; remove backgroudn */ 
 }
 
 ul.footer_menu {
@@ -288,7 +288,7 @@ ul.footer_menu li {
 }
 
 ul.footer_menu li a {
-  color: white;
+  color: black; /* color href footer menu */
 }
 
 ul.nav-list {
