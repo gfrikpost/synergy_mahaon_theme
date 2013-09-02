@@ -162,6 +162,18 @@ h1, h2, h3, h4, h5, h6 {
   vertical-align: middle;
 }
 
+.store-name {
+  width: 570px;
+}
+
+.mahaon-word {
+  font-size: 75px;
+}
+
+.sex-shop-word {
+  font-size: 35px;
+}
+
 .fixed_width {
   width: 1020px;
 }
