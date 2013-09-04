@@ -2,6 +2,7 @@
   <span class="mahaon-word">MAHAON</span>
   <span class="sex-shop-word">SEX SHOP</span>
 </div>
+<div class="phone">8 931 340-76-05</div>
 <%= form_tag products_url, :method => :get do %>
   <%= text_field_tag :keywords, params[:keywords] %><%= submit_tag t(:search), :name => nil, :id => 'keywords_submit' %>
 <% end %>
