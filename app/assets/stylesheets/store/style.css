@@ -146,6 +146,8 @@ h1, h2, h3, h4, h5, h6 {
 .header_panel a.empty, .header_panel a.full {
   background: url("/assets/store/cart.png") no-repeat left center;
   padding: 10px 0 10px 29px;
+  color: blueviolet;
+  font-size: 20px;
 }
 
 .header_panel #compare_products {
@@ -175,11 +177,19 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 22px;
 }
 
+
 .phone {
   float: left;
   font-size: 20px;
   padding-right: 15px;
   color: blueviolet;
+  margin-bottom: 23px;
+  margin-top: -4px;
+}
+
+.cart {
+  position: absolute;
+  margin-top: 30px;
 }
 
 .fixed_width {
