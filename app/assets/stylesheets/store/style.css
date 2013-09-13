@@ -1074,7 +1074,7 @@ div.rating-cancel {
 
 #page_content {
   padding-left: 5px;
-  width: 636px;
+  width: 745px;
 }
 
 #registration #guest_checkout {
@@ -1088,11 +1088,11 @@ div#checkout #checkout_form_address #shipping label {
 }
 
 .women_image {
-  background-image: url("/assets/store/women.jpg");
+  background-image: url("/assets/store/women.png");
   position: absolute;
-  width: 286px;
-  height: 420px;
-  margin-left: 894px;
+  width: 120px;
+  height: 410px;
+  margin-left: 1040px;
   z-index: 9;
 }
 
